@@ -14,8 +14,6 @@ set_node_t *Set_Insert(set_table_t *table, void *key, const size_t key_len);
 struct set_node
 {
     singly_node_t node;
-    // set_node_t *next;
-    // void *key;
     size_t key_len;
 };
 
