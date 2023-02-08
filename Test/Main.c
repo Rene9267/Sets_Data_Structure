@@ -10,11 +10,11 @@ int main(int argc, char const *argv[])
     Set_Insert(sets, "New", 3);
     Set_Insert(sets, "Computer", 9);
     Set_Insert(sets, "Hello", 5);
-    Set_Insert(sets, "Hello mauro", 11);
-    Set_Insert(sets, "Hello isma", 10);
-    Set_Insert(sets, "Hello lorenzo", 13);
+    Set_Insert(sets, "Hello you", 11);
+    Set_Insert(sets, "Hello me", 10);
+    Set_Insert(sets, "Hello he", 13);
 
-    Set_Remove(sets, "Hello mauro");
+    Set_Remove(sets, "Hello you");
     Set_Remove(sets, "Hello");
     struct set_node **current_node = sets->nodes;
     size_t index = 0;
